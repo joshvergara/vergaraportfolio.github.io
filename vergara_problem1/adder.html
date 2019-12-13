@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Adder</title>
+    <link href="adder.css" rel="stylesheet">
+    <script src="adder.js" defer></script>
+</head>
+
+<body>
+    <h1>Arithmetic Operations</h1>
+    
+    <div>
+        <input id="num1" type="text" maxlength = "4" size = "4" style="font-size: 1.5em">
+        <h2 id="symbol">&nbsp;&nbsp; + &nbsp;&nbsp;</h2>
+        <input id="num2" type="text" maxlength = "4" size = "4" style="font-size: 1.5em">
+    </div>
+    <br/>
+    <div>
+        <input value=" + " onclick="add()" type="button">
+        <input value=" - " onclick="subtract()" type="button">
+        <input value=" x " onclick="multiply()" type="button">
+        <input value=" / " onclick="divide()" type="button">
+        <br/>
+        <br/>
+        <input value="CLEAR" onclick="reset()" type="button">
+    </div>
+    
+    <h2 id="answer" > </h2>
+</body>

@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html {
+    background-image: url(orangelogo.jpg);
+}
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+
+body {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 1100px;
+    min-width: 640px;
+    width: 90%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+body article h1 {
+	font-size: 2em;
+    text-align: center;
+}
+
+body article h3 {
+    text-align: center;
+}
+
+nav ul li {
+	font-family: Verdana, sans-serif;
+	font-size: 1.2em;
+    display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+
+header nav ul li a {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+	display: block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	color: black;
+	display: block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+header nav ul li a:hover {
+	background-color: #f28500;
+	color: white;
+}
+
+
+nav ul li a:hover {
+	color: white;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+nav ul li a img {
+    display: block;
+    width: 100%;
+}
+
+#header {
+    background-color: #00B9F2;
+}
+
+#intro {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sub {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
